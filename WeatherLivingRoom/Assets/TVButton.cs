@@ -12,10 +12,10 @@ public class TVButton : MonoBehaviour
 
     void Start()
     {
+        tvMusic.Stop();
         isOn = false;
         buttonRenderer.material.color = colorOff;
         canvas.SetActive(false);
-        tvMusic.Stop();
     }
     public void ToggleTV()
     {
