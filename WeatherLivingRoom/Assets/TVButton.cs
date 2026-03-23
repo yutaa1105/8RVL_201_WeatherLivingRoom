@@ -8,15 +8,21 @@ public class TVButton : MonoBehaviour
     public AudioSource clickSound;
     public Color colorOn = Color.green;
     public Color colorOff = Color.red;
-    private bool isOn = true;
+    private bool isOn = false;
+
+    void Awake()
+    {
+        tvMusic.Stop();
+    }
 
     void Start()
     {
-        tvMusic.Stop();
         isOn = false;
         buttonRenderer.material.color = colorOff;
         canvas.SetActive(false);
+        tvMusic.Stop();
     }
+
     public void ToggleTV()
     {
         isOn = !isOn;
