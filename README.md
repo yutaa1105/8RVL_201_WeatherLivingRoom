@@ -27,4 +27,8 @@ sur la télévision.
 
 ## Équipe & répartition des rôles
 - Candice CARTON : déplacements + interaction avec le bouton de la télé + scène principale
-- Nathan WILLAY : API + lumières & particules + son spatialisé + documentation GitHub  
+- Nathan WILLAY : API + lumières & particules + son spatialisé + documentation GitHub
+
+## Notes de développement
+- Son qui se lance au démarrage : la musique spatialisée de la TV se déclenche automatiquement au lancement de la scène, même lorsque la TV est éteinte.
+- Développement sur un seul PC : en raison de conflits de versions Unity, le projet a été développé sur une seule machine avec des pushs alternés entre les membres de l'équipe.
